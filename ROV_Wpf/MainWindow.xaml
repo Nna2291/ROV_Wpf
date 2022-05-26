@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label x:Name="telemetry" Content="" HorizontalAlignment="Left" Margin="54,159,0,0" VerticalAlignment="Top" Width="129" BorderThickness="2,2,2,2" BorderBrush="Black" ClipToBounds="True"/>
-        <Slider x:Name="engine" IsSnapToTickEnabled="True" TickFrequency="127" ValueChanged="Slider_ValueChanged" HorizontalAlignment="Left" Margin="513,234,0,0" Value="0" Minimum="0" Maximum="254"  VerticalAlignment="Top" Width="120"/>
+        <Slider x:Name="engine" IsSnapToTickEnabled="True" TickFrequency="127" ValueChanged="Slider_ValueChanged" HorizontalAlignment="Left" Margin="513,234,0,0" Value="0" Minimum="-254" Maximum="254"  VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
